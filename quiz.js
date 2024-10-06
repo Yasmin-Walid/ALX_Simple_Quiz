@@ -11,11 +11,7 @@ function checkAnswer() {
     } else {
       document.getElementById('feedback').textContent = "That's incorrect. Try again!";
     }
-  } else {
- 
-    console.log('No answer selected.');
-    document.getElementById('feedback').textContent = "Please select an answer.";
-  }
+  } 
 }
 
 
